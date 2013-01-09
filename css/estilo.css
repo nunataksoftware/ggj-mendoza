@@ -1,0 +1,205 @@
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+      h2{
+        color:#C94AB6;
+      }
+      iframe{
+        border:#00CCFF solid 5px;
+      }
+      img#imgLeParc{
+        border:#995FB8 solid 5px;
+      }
+      #fecha{
+        width:176px;
+        height:55px;
+        background:url('http://adrielzarate.com.ar/img/parallax/fecha.png') no-repeat;        
+      }
+      #ggjm{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:420px;
+        z-index:-10;
+        background:#00CCFF url('http://adrielzarate.com.ar/img/parallax/fondo.png') no-repeat center bottom;
+      }
+      #ggjm-logo{
+        margin-left:-200px;
+        left:50%;
+        top:120px;
+        position:absolute;
+      }
+      .large-header{
+        width:100%;
+      }
+      .presentacion{
+        color:#1DEDEA;
+        text-align:center;
+      }
+      .link{
+        color:#D741B3;
+        font-weight:normal;
+        text-decoration:underline;
+      }
+      .link:hover{
+        color:#D741B3;
+      }
+      .featurette-divider{
+        margin: 80px 0;
+      }
+      hr#hrHeader,hr#hrHeaderResponsive{
+        border-bottom:#ffffff solid thin;
+      }
+      .redesSociales{
+        float:right;
+        margin-top:-90px;
+      }
+      #horarios{
+        color:#50006E;
+        font-weight:bold;
+        font-size:1.3em;
+      }
+      .miLista{
+        color:#50006E;
+      }
+      #horarios li,#dinamica li{
+        margin-top: 10px;
+      }
+      h3,.horario{
+        font-weight:bold;
+        color:#995FAF;
+      }
+    .featurette {
+      overflow: hidden;
+    }
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -60px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+      .jumbotron {
+        margin: 220px 0 100px;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+      footer {
+        width:100%;
+        position:absolute;
+        left:0;
+        background-color: #f5f5f5;  
+        margin-top:80px;      
+      }
+      footer iframe{
+        border:none;
+        width:90%;
+        height:80px;
+      }
+    .container {
+        width: auto;
+        max-width: 680px;
+        padding:20px 10px 10px;
+      }
+      @media (max-width: 767px) {
+        footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right:0;
+        }
+      }
+    @media (max-width: 979px) {
+      .jumbotron {
+        margin-top: 180px;
+      }
+      .redesSociales{
+        margin-top:-70px;
+      }
+      .featurette, iframe {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right,
+      .pull-right{
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+      #mapa{
+        max-width: 450px;
+      }
+      #mapa iframe{
+        width:425px;
+        height:350px;
+      }
+      #hrHeader{
+        display:none;
+      }
+    }
+    @media (max-width: 660px) {
+      ul.nav.nav-pills.pull-right{
+        max-width:none;
+      }
+      #fecha{
+        display:none;
+      }
+      .jumbotron {
+        margin-top: 250px;
+      }
+      .redesSociales{
+        text-align:center;
+        float:none;
+        margin-top:-60px;
+      }
+    }
+    @media (max-width: 470px) {
+      #mapa iframe{
+        width:95%;
+      }
+    }
+    @media (max-width: 370px) {
+      #ggjm-logo{
+        width:90%;
+        margin-left:-45%;
+      }
+      footer{
+        padding:0;
+        margin:0;
+      }
+    }  
+      @media (min-width: 1024px) {
+        .container-narrow {
+          max-width: 900px;
+        }
+        hr#hrHeaderResponsive{
+          display:none;
+        }
+      }
