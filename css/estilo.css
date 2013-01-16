@@ -184,6 +184,11 @@
 	  .link img {
 		margin-right:10px;
 	  }
+	  .copy {
+		font-size: 10px;
+		clear:both;
+	  }
+	  
       @media (max-width: 767px) {
         footer {
           margin-left: -20px;
