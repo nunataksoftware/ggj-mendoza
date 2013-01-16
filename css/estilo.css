@@ -1,6 +1,7 @@
       body {
         padding-top: 20px;
         padding-bottom: 40px;
+		/*overflow-x:hidden;*/
       }
       h2{
         color:#C94AB6;
@@ -14,18 +15,66 @@
       #fecha{
         width:176px;
         height:55px;
-        background:url('http://adrielzarate.com.ar/img/parallax/fecha.png') no-repeat;        
+        background:url('../img/fecha.png') no-repeat;        
       }
-      #ggjm{
+      #nubes,#montes,#edificios1,#edificios2,#edificios3,#edificios4{
         position:absolute;
         top:0;
         left:0;
         width:100%;
         height:420px;
-        z-index:-10;
-        background:#00CCFF url('http://adrielzarate.com.ar/img/parallax/fondo.png') no-repeat center bottom;
+		margin:0 auto;
       }
-      #ggjm-logo{
+	  #header-fondo{
+        background:#00CCFF;
+		z-index:-12;
+		width:100%;
+		height:420px;
+		position:absolute;
+		top:0;
+		left:0;
+	  }
+	  #nubes{
+        background:transparent url('../img/nubes.png') repeat-x;
+		z-index:-11;
+		position:absolute;
+		top:89px;
+	  }
+	  #montes{
+        background:transparent url('../img/montes.png') repeat-x;
+		z-index:-10;
+		position:absolute;
+		top:294px;
+	  }
+	  #edificios1{
+        background:transparent url('../img/edificios1.png') repeat-x;
+		z-index:-9;
+		position:absolute;
+		top:348px;
+	  }
+	  #edificios2{
+        background:transparent url('../img/edificios2.png') repeat-x;
+		z-index:-8;
+		position:absolute;
+		top:293px;
+	  }
+	  #edificios3{
+        background:transparent url('../img/edificios3.png') repeat-x;
+		z-index:-7;
+		position:absolute;
+		top:352px;
+	  }
+	  #edificios4{
+        background:transparent url('../img/edificios4.png') no-repeat;
+		z-index:-6;
+		position:absolute;
+		top:145px;
+		width:676px;
+		margin-left:-338px; 
+		left:50%;
+		height:276px;
+	  }
+	    #ggjm-logo{
         margin-left:-200px;
         left:50%;
         top:120px;
@@ -35,16 +84,8 @@
         width:100%;
       }
       .presentacion{
-        color:#1DEDEA;
+        color:#00CCFF;
         text-align:center;
-      }
-      .link{
-        color:#D741B3;
-        font-weight:normal;
-        text-decoration:underline;
-      }
-      .link:hover{
-        color:#D741B3;
       }
       .featurette-divider{
         margin: 80px 0;
@@ -61,9 +102,15 @@
         font-weight:bold;
         font-size:1.3em;
       }
+		#mapa iframe{
+        height:350px;
+		}
       .miLista{
         color:#50006E;
       }
+	  	#dondeEs .pull-right{
+		width:50%;
+	}
       #horarios li,#dinamica li{
         margin-top: 10px;
       }
@@ -118,7 +165,7 @@
       }
       footer iframe{
         border:none;
-        width:90%;
+        width:80%;
         height:80px;
       }
     .container {
@@ -126,6 +173,17 @@
         max-width: 680px;
         padding:20px 10px 10px;
       }
+      .link{
+        color:#D741B3;
+        font-weight:normal;
+        text-decoration:underline;
+      }
+      .link:hover{
+        color:#96379B;
+      }
+	  .link img {
+		margin-right:10px;
+	  }
       @media (max-width: 767px) {
         footer {
           margin-left: -20px;
@@ -135,6 +193,9 @@
         }
       }
     @media (max-width: 979px) {
+      header.large-header{
+		padding-top:10px;
+	  }
       .jumbotron {
         margin-top: 180px;
       }
@@ -153,13 +214,16 @@
         max-width: 40%;
         margin: 0 auto 20px;
       }
+	#dondeEs .pull-right{
+		max-width:100%;
+		width:100%;
+	}	  
       #mapa{
-        max-width: 450px;
+        width: 100%;
       }
-      #mapa iframe{
-        width:425px;
-        height:350px;
-      }
+		#mapa iframe{
+        width:90%;
+		}
       #hrHeader{
         display:none;
       }
@@ -171,6 +235,9 @@
       #fecha{
         display:none;
       }
+	  #edificios4{
+        display:none;
+	  }
       .jumbotron {
         margin-top: 250px;
       }
@@ -181,9 +248,9 @@
       }
     }
     @media (max-width: 470px) {
-      #mapa iframe{
+      /*#mapa iframe{
         width:95%;
-      }
+      }*/
     }
     @media (max-width: 370px) {
       #ggjm-logo{
@@ -199,6 +266,10 @@
         .container-narrow {
           max-width: 900px;
         }
+		#mapa iframe{
+        width:425px;
+        height:350px;
+		}
         hr#hrHeaderResponsive{
           display:none;
         }

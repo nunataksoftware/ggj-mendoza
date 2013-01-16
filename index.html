@@ -15,19 +15,25 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  
+
 <script type="text/javascript">var switchTo5x=true;</script>
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "1caa6e24-a843-4589-ba02-fe426ca05201"});</script>                                                                   
   </head>
 
   <body>
-
+	<div id="top-sitio"></div>
     <div class="container-narrow">
 
       <header class="large-header">
 
-        <div id="ggjm"></div>
+				<div id="header-fondo"></div>
+				<div id="nubes"></div>
+				<div id="montes"></div>
+				<div id="edificios1"></div>
+				<div id="edificios2"></div>
+				<div id="edificios3"></div>
+				<div id="edificios4"></div>
 
         <div class="masthead">
           <ul class="nav nav-pills pull-right">
@@ -53,18 +59,19 @@
       </header>
 
       <div class="featurette">
-        <h2 class="featurette-heading"><span class="presentacion">Si sos programador, diseñador, músico, ilustrador, o tenés algun otro conocimiento relacionado al arte y la tecnología podés participar del mayor evento de desarrollo de juegos del mundo!</span></h2>
+        <h2 class="featurette-heading"><span class="presentacion">Si sos programador, diseñador, músico, ilustrador, o tenés algún otro conocimiento relacionado al arte y la tecnología podés participar del mayor evento de desarrollo de juegos del mundo!</span></h2>
       </div>
 
-      <div class="featurette">
+      <!--<div class="featurette">
         <br>
         <p style="text-align:center;">espacio para logos de publicidad</p>
-      </div>
+      </div>-->
 
       <hr class="featurette-divider">
 
       <div class="featurette" id="queEs">
-        <img class="featurette-image pull-left" src="img/ggjmza.png">
+	  <br>
+        <img class="featurette-image pull-right" src="img/ggjmza.png">
         <h2 class="featurette-heading"><span class="muted">Es un evento </span>gratuito <span class="muted">y</span> multidisciplinario <span class="muted">donde vas a tener la posibilidad de crear un juego en</span> 48 horas.</h2>
 
         <p class="lead">Imaginate una hackathon centrada en el desarrollo de juegos de mesa o de video, simultánea en 270 sedes en 58 países, y con 48 horas para terminar tu proyecto con gente que tiene el mismo gusto por la cratividad y los juegos que vos. Eso es la  <a class="link" href="http://globalgamejam.org" target="_blank">Global Game Jam</a>.</p>
@@ -86,10 +93,12 @@
       <hr class="featurette-divider">
 
       <div class="featurette" id="dondeEs">
-        <div class="featurette pull-right" id="mapa">
-        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=203939754984362102175.0004d2b48c2d470c3abbc&amp;ie=UTF8&amp;t=m&amp;ll=-32.888597,-68.815441&amp;spn=0.012613,0.018239&amp;z=15&amp;output=embed"></iframe>
+	  <br>
+        <div class="featurette pull-left" id="mapa">
+        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=203939754984362102175.0004d2b48c2d470c3abbc&amp;ie=UTF8&amp;t=m&amp;ll=-32.888597,-68.815441&amp;spn=0.012613,0.018239&amp;z=15&amp;output=embed"></iframe>
         <p>Sitio web <a class="link" href="http://www.espacioleparc.com">espacioleparc.com</a></p>
         </div>
+		<div class="pull-right">
         <h2 class="featurette-heading"><span class="muted">Se realizará en el </span>Espacio cultural Julio Le Parc.</h2>
         <p class="lead">Ubicado entre las calles Mitre y Godoy Cruz de Guaymallén.</p>
         <p><h3>Cómo llegar?</h3></p>
@@ -119,12 +128,13 @@
           <li>Línea 173-172: Maipú- Ortega- Rodeo de la Cruz</li>
           <li>Línea 171: Maipú –V Viñedo-Rodeo de la Cruz</li>
         </ul>
+		</div>
       </div>
 
       <hr class="featurette-divider">
 
       <div class="featurette" id="cuandoEs">
-        <img class="featurette-image pull-left" id="imgLeParc" src="img/leparc.jpg">
+        <img class="featurette-image pull-right" id="imgLeParc" src="img/leparc.jpg">
         <h2 class="featurette-heading"><span class="muted">Los días </span>25, 26 y 27 de Enero</h2>
         <p class="lead">La sede Mendoza tiene estos horarios:</p>
         <ul id="horarios">
@@ -136,8 +146,12 @@
 
       <footer>
         <div class="container">
-          <p class="pull-right link"><a class="link" href="#">Subir</a></p>
-          <iframe src="https://www.facebook.com/plugins/like.php?href=https://www.facebook.com/pages/Global-Game-Jam-Mendoza/146371642143127?ref=ts&fref=ts"
+          <p class="pull-right">
+			  <a class="link" href="javascript:$.scrollTo('#top-sitio',800);"><img src="img/arriba.png">Subir</a>
+		  </p>
+		  <p><h3 class="featurette-heading"><span class="muted">Hashtag </span>#GGJMza13</h3></p>
+		  <p><h4><a class="link" href=""><strong>sitio en facebook</strong></a><span class="muted"> del evento. Dale Like!<span></h4></p>
+          <iframe class="pull-left" src="https://www.facebook.com/plugins/like.php?href=https://www.facebook.com/pages/Global-Game-Jam-Mendoza/146371642143127?ref=ts&fref=ts"
         scrolling="no" frameborder="0"></iframe>
 
         </div>
@@ -146,7 +160,8 @@
     </div>
 
     <script src="js/jquery.js"></script>
-    <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+	<script src="js/scripts.js"></script>
 
   </body>
 </html>
