@@ -1,7 +1,7 @@
 ggj-mendoza
 ===========
 
-Sitio web del Global Game Jam Mendoza
+Sitio web oficial del [Global Game Jam Mendoza](http://www.globalgamejammendoza.com)
 
 El Global Game Jam es un evento gratuito y multidisciplinario donde vas a tener la posibilidad de crear un juego en 48 horas.
 
