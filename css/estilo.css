@@ -188,6 +188,19 @@
 		font-size: 10px;
 		clear:both;
 	  }
+      
+      /* Sponsors */
+
+      
+      ul.sponsors {
+        text-align:center;
+        list-style:none;
+      }
+      
+      ul.sponsors  li{
+        float: left;
+      }
+      
 	  
       @media (max-width: 767px) {
         footer {
