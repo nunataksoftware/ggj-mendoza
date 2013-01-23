@@ -190,25 +190,10 @@
 	  }
       
       /* Sponsors */
-<<<<<<< HEAD
 	  
-	  #sponsors {
+      #sponsors {
 		margin:0 auto;
-        text-align:center;
-        list-style:none;
-      }
-      #sponsors  li{
-=======
-
-      
-      ul.sponsors {
-        text-align:center;
-        list-style:none;
-      }
-      
-      ul.sponsors  li{
->>>>>>> f8adf4099e6e0b9fde9b08a9f3dc3383893a1097
-        float: left;
+		text-align:center;
       }
       
 	  
