@@ -184,6 +184,23 @@
 	  .link img {
 		margin-right:10px;
 	  }
+	  .copy {
+		font-size: 10px;
+		clear:both;
+	  }
+      
+      /* Sponsors */
+	  
+	  #sponsors {
+		margin:0 auto;
+        text-align:center;
+        list-style:none;
+      }
+      #sponsors  li{
+        float: left;
+      }
+      
+	  
       @media (max-width: 767px) {
         footer {
           margin-left: -20px;
@@ -226,6 +243,9 @@
 		}
       #hrHeader{
         display:none;
+      }
+	  #sponsors img{
+		max-width:40%;
       }
     }
     @media (max-width: 660px) {
