@@ -94,10 +94,11 @@
 		height:276px;
 	  }
 	    #ggjm-logo{
-        margin-left:-200px;
-        left:50%;
-        top:120px;
-        position:absolute;
+        left: 44%;
+        margin-left: -200px;
+        position: absolute;
+        top: 82px;
+        width: 540px;
       }
       .large-header{
         width:100%;
