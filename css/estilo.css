@@ -84,13 +84,13 @@
 		top:352px;
 	  }
 	  #edificios4{
-        background:transparent url('../img/edificios4.png') no-repeat;
+        background:transparent url('../img/edificios4b.png') no-repeat;
 		z-index:-6;
 		position:absolute;
-		top:145px;
-		width:676px;
+		top:213px;
+		width:1024px;
 		margin-left:-338px; 
-		left:50%;
+		left:37%;
 		height:276px;
 	  }
 	    #ggjm-logo{
