@@ -1,19 +1,23 @@
-var camera, scene, renderer;
 var minigame;
-var cube;
 var game;
 
-
+/**
+  * El ancho y algo es fijo, de esta forma pueden jugar multiples jugadores
+  **/
 var canvasWidth;
 var canvasHeight;
-var viewSize;
 
-var buildings;
+
+var buildings = [];
 
 var objects = [];
 var control;
-var clock = new THREE.Clock();
 
+var debug = true;
+
+/**
+  * Ordena de manera aleatoria un array y lo devuelve
+  **/
 function randomSort2(a,b) {
     // Get a random number between 0 and 10
     var temp = parseInt( Math.random()*10 );
@@ -176,7 +180,7 @@ $(document).ready(function() {
     $('#game').append(errorReport+e);
   }
 
-  document.addEventListener( 'mousedown', onDocumentMouseDown, false)
+  //document.addEventListener( 'mousedown', onDocumentMouseDown, false)
 
 
 });
