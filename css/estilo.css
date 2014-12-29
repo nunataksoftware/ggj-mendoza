@@ -99,6 +99,7 @@
         position: absolute;
         top: 82px;
         width: 540px;
+        z-index: -10;
       }
       .large-header{
         width:100%;
