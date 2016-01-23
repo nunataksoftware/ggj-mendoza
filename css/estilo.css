@@ -45,20 +45,93 @@
 		margin:0 auto;
       }
 	  #header-fondo{
-        background:#00CCFF;
-		z-index:-12;
-		width:100%;
-		height:420px;
-		position:absolute;
-		top:0;
-		left:0;
+        background: url('../img/ggj2016scene/fondo_de_estrellas.png') repeat-x;
+  		z-index:-12;
+  		width:100%;
+  		height:600px;
+  		position:absolute;
+  		top:0;
+  		left:0;
+      background-size: cover;
 	  }
+
+
+    #nave{
+      background: transparent url('../img/ggj2016scene/nave.png') no-repeat;
+      z-index:-11;
+      position:absolute;
+      top:0px;
+      width: 900px;
+      height: 600px;
+    }
+
+
+    #astronautas{
+      background: transparent url('../img/ggj2016scene/astronautas.png') no-repeat;
+      z-index:-10;
+      position:absolute;
+      top:0px;
+      width: 900px;
+      height: 600px;
+    }
+
+    #astroazul{
+      background: url('../img/ggj2016scene/astroazul.png') no-repeat;
+      z-index:-10;
+      position:absolute;
+      left: 600px;
+      top:275px;
+      width: 877px;
+      height: 325px;
+    }
+
+
+
+    #astroverde{
+      background: url('../img/ggj2016scene/astroverde.png') no-repeat;
+      z-index:-9;
+      position:absolute;
+      top:275px;
+      left: 100px;
+      width: 877px;
+      height: 325px;
+    }
+
+
+
+
+    #astroamarillo{
+      background: url('../img/ggj2016scene/astroamarillo.png') no-repeat;
+      z-index:-8;
+      position:absolute;
+      top:356px;
+      left: 442px;
+      width: 877px;
+      height: 325px;
+    }
+
+
+    #posacabezaamarillo{
+      background: url('../img/ggj2016scene/posacabezaamarillo.png') no-repeat;
+      z-index:-7;
+      position:absolute;
+      top:417px;
+      left:600px;
+      width: 877px;
+      height: 325px;
+    }
+
+
+/*
+
 	  #nubes{
         background:transparent url('../img/nubes.png') repeat-x;
-		z-index:-11;
-		position:absolute;
-		top:89px;
+  		z-index:-11;
+  		position:absolute;
+  		top:89px;
 	  }
+
+
 	  #montes{
         background:transparent url('../img/montes.png') repeat-x;
 		z-index:-10;
@@ -93,6 +166,9 @@
 		left:37%;
 		height:276px;
 	  }
+
+*/
+
 	    #ggjm-logo{
         left: 44%;
         margin-left: -200px;
@@ -160,7 +236,7 @@
         margin: 30px 0;
       }
       .jumbotron {
-        margin: 220px 0 100px;
+        margin: 220px 0 280px;
         text-align: center;
       }
       .jumbotron h1 {
