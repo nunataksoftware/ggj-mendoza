@@ -162,12 +162,49 @@
 		position:absolute;
 		top:213px;
 		width:1024px;
-		margin-left:-338px; 
+		margin-left:-338px;
 		left:37%;
 		height:276px;
 	  }
 
 */
+
+
+#header-fondo-2018{
+  background: url('../img/ggj2018scene/fondo.png') repeat-x;
+z-index:-12;
+width:100%;
+height:600px;
+position:absolute;
+top:0;
+left:0;
+background-size: cover;
+}
+
+
+#paisaje{
+background: transparent url('../img/ggj2018scene/paisaje.png') no-repeat;
+z-index:-11;
+position:absolute;
+top:0px;
+width: 100%;
+height: 600px;
+left:0;
+background-size: cover;
+}
+
+
+#textos{
+background: transparent url('../img/ggj2018scene/textos.png') no-repeat;
+z-index:-10;
+position:absolute;
+top:0px;
+width: 100%;
+height: 600px;
+left:0;
+background-size: cover;
+}
+
 
 	    #ggjm-logo{
         left: 44%;
@@ -257,8 +294,8 @@
         width:100%;
         position:absolute;
         left:0;
-        background-color: #f5f5f5;  
-        margin-top:80px;      
+        background-color: #f5f5f5;
+        margin-top:80px;
       }
       footer iframe{
         border:none;
@@ -285,14 +322,14 @@
 		font-size: 10px;
 		clear:both;
 	  }
-      
+
       /* Sponsors */
-	  
+
       #sponsors {
 		margin:0 auto;
 		text-align:center;
       }
-      
+
     #sponsors img{
       max-width: 128px;
     }
@@ -329,7 +366,7 @@
 	#dondeEs .pull-right{
 		max-width:100%;
 		width:100%;
-	}	  
+	}
       #mapa{
         width: 100%;
       }
@@ -376,7 +413,7 @@
         padding:0;
         margin:0;
       }
-    }  
+    }
       @media (min-width: 1024px) {
         .container-narrow {
           max-width: 900px;
