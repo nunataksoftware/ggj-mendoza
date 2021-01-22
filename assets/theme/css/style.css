@@ -3,7 +3,7 @@
  * Copyright 2017 Mobirise
  */
 section {
-  background-color: #eeeeee; }
+  background-color: #41294D; }
 
 body {
   font-style: normal;
@@ -60,7 +60,7 @@ figure {
   margin-bottom: 0; }
 
 body {
-  color: #232323; }
+  color: white; }
 
 h1,
 h2,
@@ -251,7 +251,8 @@ figure[mbr-media-size] {
   border: none; }
 
 .card-box {
-  width: 100%; }
+  width: 100%;
+  text-align: center; }
 
 .card-img {
   text-align: center;
